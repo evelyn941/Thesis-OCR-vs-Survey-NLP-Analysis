@@ -16,3 +16,9 @@ The dataset involves 42,943 valid reviews of Uniqlo apparel products collected f
 * **Timeframe:** July 29, 2019, to March 5, 2021.
 * **Data Size:** 135,252 clauses after cleaning and segmentation.
 * **Annotations:** Two manually labeled datasets (Review-based and Clause-based) used for model training and validation.
+
+## File Descriptions
+* **`online_reviews_analysis.ipynb`**: Include data cleaning, clause segmentation, and the fine-tuning of the BERT classifier.
+* **`domain_analysis.ipynb`**: Post-prediction analytics to calculate construct alignment using CCI, VGI, and RSI metrics & statistical tests.
+* **`UNIQLO_female`**: Raw reviews data for Uniqlo female apparel products collected from Tmall.
+* **`UNIQLO_male`**: Raw reviews data for Uniqlo male apparel products collected from Tmall.
